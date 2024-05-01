@@ -11,9 +11,8 @@ body {
   color: white;
   font-size: 32px;
   font-weight: 900;
+  padding-top: 18px;
   padding-left: 16px;
-  display: flex;
-  align-items: center;
 }
 
 .footer {
@@ -22,9 +21,7 @@ body {
   color: darkmagenta;
   text-align: center;
   font-size:24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 24px 0px;
 }
 
 main {
@@ -37,7 +34,6 @@ main {
   background: royalblue;
   box-sizing: border-box;
   flex: 0 0 auto;
-  padding: 16px;
 
 }
 
@@ -71,6 +67,5 @@ ul {
 
 a {
     text-decoration: none;
-    font-size: 24px;
     color: #ffffff;
 }

@@ -24,3 +24,32 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+body {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+margin: 0;
+padding: 16px;
+width: 100%;
+gap: 32px;
+}
+
+.container {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+gap: 52px;
+}
+
+.flower {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 0 1 200px;
+    text-align: center;
+}
+
